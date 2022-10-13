@@ -1,6 +1,6 @@
 # GIT
 
-### Configuración global
+## Configuración global
 - git --version
 - git config --global user.name "Alex"
 - git config --global user.email "alexrobertomata@hotmail.com"
@@ -8,21 +8,19 @@
 - git config --global -e (Abrir .gitconfig)
 - git config --global color.ui "auto"
 
-###Comandos básicos
-Iniciamos GIT en la carpeta donde esta el proyecto
+## Comandos básicos
 - git init
-
-Clonamos el repositorio de github o bitbucket
-- git clone <url>
-
-Añadimos todos los archivos para el commit
+- git clone <url de repositorio>
+- git add <archivo>
 - git add .
-
-Hacemos el primer commit
+- git add -u
 - git commit -m "Texto que identifique por que se hizo el commit"
-
-subimos al repositorio
 - git push -u origin master
+- git log --oneline --stat
+- git log --oneline --graph
+- git diff
+- git reset
+- git reset HEAD <archivo>
 
 # Script
 - PWD Imprime el directorio actual
