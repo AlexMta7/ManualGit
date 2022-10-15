@@ -11,6 +11,7 @@
 ## Comandos básicos
 - git init
 - git clone <url de repositorio>
+- *git status -s* (solo muestra archivos)
 - git add <archivo>
 - git add .
 - git add -u
