@@ -19,7 +19,8 @@
 - git log --oneline --stat
 - git log --oneline --graph
 - git diff
-- git reset
+- git reset HEAD --soft (regresa un commit sin eliminar cambios)
+- git reset HEAD --hard (regresa un commit eliminando cambios)
 - git reset HEAD <archivo>
 
 # Script
