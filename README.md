@@ -11,7 +11,7 @@
 ## Comandos básicos
 - git init
 - git clone <url de repositorio>
-- *git status -s* (solo muestra archivos)
+- **git status -s** (solo muestra archivos)
 - git add <archivo>
 - git add .
 - git add -u
@@ -19,7 +19,7 @@
 - git push -u origin master
 - git log --oneline --stat
 - git log --oneline --graph
-- git diff
+- git diff --staged
 - git reset HEAD --soft (regresa un commit sin eliminar cambios)
 - git reset HEAD --hard (regresa un commit eliminando cambios)
 - git reset HEAD <archivo>
