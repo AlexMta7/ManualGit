@@ -21,6 +21,14 @@
 - git diff
 - git reset
 - git reset HEAD <archivo>
+- git branch <branch>
+- git branch --list
+- git branch -d <branch>
+- git branch -m <branch>
+- git branch -a
+- git checkout -b ＜new-branch＞
+- git fetch --all
+
 
 # Script
 - PWD Imprime el directorio actual
