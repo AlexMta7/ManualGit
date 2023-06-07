@@ -20,6 +20,10 @@
 - git log --oneline --stat
 - git log --oneline --graph
 - git diff --staged
+- git stash save "message" (saves uncommited changes away for later use)
+- git stash list
+- git stash pop (re-apply the most recently created stash: stash@{0})
+- git stash pop stash@{2} (choose which stash to re-apply)
 - git reset HEAD --soft (regresa un commit sin eliminar cambios)
 - git reset HEAD --hard (regresa un commit eliminando cambios)
 - git reset HEAD <archivo>
