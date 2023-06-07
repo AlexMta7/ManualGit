@@ -24,6 +24,9 @@
 - git stash list
 - git stash pop (re-apply the most recently created stash: stash@{0})
 - git stash pop stash@{2} (choose which stash to re-apply)
+- git stash clear (delete all stashes)
+- git stash drop stash@{1} (delete a particular stash)
+- git stash branch <branch> stash@{1} (create a branch from stash)
 - git reset HEAD --soft (regresa un commit sin eliminar cambios)
 - git reset HEAD --hard (regresa un commit eliminando cambios)
 - git reset HEAD <archivo>
