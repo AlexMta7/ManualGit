@@ -32,7 +32,8 @@
 - git reset HEAD <archivo>
 - git branch <branch>
 - git branch --list
-- git branch -d <branch>
+- git branch -d <branch> (delete branch)
+- git push origin -d <branch> (delete remote branch)
 - git branch -m <branch>
 - git branch -a
 - git checkout -b ＜new-branch＞
